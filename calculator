@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+#include<math.h>
+//code to convert decimal to binary e.g. 2 to 0000000000010
+int main(){
+//method 1
+cout<<"enter the number :"<<endl;
+int n;
+cin>>n;
+int sum=0;
+int i = 0;
+while(n!=0){
+    int digit = n%2;
+    cout<<digit<<endl;
+    sum = (digit*pow(10,i))+sum;
+    cout<<"sum is"<<sum<<endl;
+    i++;
+        n=n/2;
+    cout<<"n is"<<n<<endl;
+    }
+cout<<sum;
+    return 0;
+}

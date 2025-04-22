@@ -18,6 +18,6 @@ while(n!=0){
         n=n/2;
     cout<<"n is"<<n<<endl;
     }
-cout<<sum;
+cout<<sum<<endl;
     return 0;
 }
